@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <!-- Margin: espacio de afuera del elemento -->
+    <!-- Padding: espacio dentro del elemento-->
+    <!-- Las separaciones sean iguales-->
+    <header>
+      <h1>Bienvenidos a Crunchirol</h1>
+      <div class="txt_ingresarDatos">
+        <p>
+          Primero tienes que registrar tus datos para ingresar a la pagina
+          principal
+        </p>
+      </div>
+    </header>
+    <br>
+   
+    <section class="ing_mail_y_con">
+      <form action="./crunchirol.html" method="post">
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name="emails"
+          id="mail"
+          placeholder="Ingrese un correo electrónico"
+          required
+        />
+        <br />
+        <br>
+        <label for="password">Contraseña</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Ingrese una contraseña"
+          required
+        />
+        <br />
+        <br>
+        <input class="button_ing" type="submit" value="ingresar" />
+      </form>
+    </section>
+  </body>
+</html>
